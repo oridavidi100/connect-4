@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0"
+  },
   "devDependencies": {
     "webpack": "^5.61.0",
     "webpack-cli": "^4.9.1"
   },
   "scripts": {
-    "build": "webpack build"
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
